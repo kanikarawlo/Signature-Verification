@@ -5,3 +5,4 @@ joblib
 opencv-python-headless
 matplotlib
 keras
+tenserflow
