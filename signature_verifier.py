@@ -6,7 +6,7 @@ import joblib
 import cv2
 import matplotlib.pyplot as plt
 
-load_model = joblib.load("/main/Signature_Forgery_Detector.joblib")
+load_model = joblib.load("Signature_Forgery_Detector.joblib")
 load_model
 
 def preprocess(image_path):
