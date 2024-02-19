@@ -7,7 +7,7 @@ import cv2
 import matplotlib.pyplot as plt
 
 
-from keras.model import load_model
+from keras.models import load_model
 load_model = load_model("Signature_Forgery_Detector.joblib")
 
 def preprocess(image_path):
