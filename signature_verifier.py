@@ -6,16 +6,10 @@ import joblib
 import cv2
 import matplotlib.pyplot as plt
 
-import os
-
-# Get the absolute path to the directory of the script
-script_dir = os.path.dirname(__file__)
-
-# Construct the absolute file path to the joblib file
-joblib_file_path = os.path.join(script_dir, "Signature_Forgery_Detector.joblib")
-
-# Load the model using the absolute file path
-load_model = joblib.load(joblib_file_path)
+try:
+    load_model = joblib.load("Signature_Forgery_Detector.joblib")
+except Exception as e:
+    st.error(f"Error loading the model: {e}")
 
 
 def preprocess(image_path):
