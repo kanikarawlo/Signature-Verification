@@ -6,10 +6,12 @@ import joblib
 import cv2
 import matplotlib.pyplot as plt
 
-try:
-    load_model = joblib.load("Signature_Forgery_Detector.joblib")
-except Exception as e:
-    st.error(f"Error loading the model: {e}")
+
+load_model = joblib.load("Signature_Forgery_Detector.joblib")
+#try:
+#    load_model = joblib.load("Signature_Forgery_Detector.joblib")
+#except Exception as e:
+#    st.error(f"Error loading the model: {e}")
 
 
 def preprocess(image_path):
