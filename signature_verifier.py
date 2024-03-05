@@ -7,7 +7,7 @@ import cv2
 import matplotlib.pyplot as plt
 
 
-load_model = joblib.load("./Signature_Forgery_Detector.joblib")
+load_model = joblib.load("./model/Signature_Forgery_Detector.joblib")
 #try:
 #    load_model = joblib.load("Signature_Forgery_Detector.joblib")
 #except Exception as e:
