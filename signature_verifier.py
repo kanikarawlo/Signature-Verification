@@ -6,9 +6,8 @@ import joblib
 import cv2
 import matplotlib.pyplot as plt
 
-
-from keras.models import load_model
-loaded_model = load_model("./Signature_Forgery_Detector.joblib")
+load_model = joblib.load("Signature_Forgery_Detector.joblib")
+load_model
 
 def preprocess(image_path):
     img = cv2.imread(image_path)
@@ -42,7 +41,7 @@ def verification(img1,img2):
     test_img1 = img_to_array(img1)
     test_img2 = img_to_array(img2)
     
-    prediction = loaded_model.predict([test_img1, test_img2])
+    prediction = load_model.predict([test_img1, test_img2])
     prediction = (prediction > 0.75).astype(int)
     if(prediction[0] ==0):
         return "Signatre is genuine"
