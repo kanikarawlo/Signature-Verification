@@ -6,8 +6,17 @@ import joblib
 import cv2
 import matplotlib.pyplot as plt
 
-load_model = joblib.load("Signature_Forgery_Detector.joblib")
-load_model
+import os
+
+# Get the absolute path to the directory of the script
+script_dir = os.path.dirname(__file__)
+
+# Construct the absolute file path to the joblib file
+joblib_file_path = os.path.join(script_dir, "Signature_Forgery_Detector.joblib")
+
+# Load the model using the absolute file path
+load_model = joblib.load(joblib_file_path)
+
 
 def preprocess(image_path):
     img = cv2.imread(image_path)
