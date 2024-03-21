@@ -5,4 +5,4 @@ joblib
 opencv-python-headless
 matplotlib
 keras
-tensorflow
+tensorflow==2.3.1
