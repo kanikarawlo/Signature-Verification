@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import pickle
 
 # Load the model from the Pickle file
-with open("C:/Users/KIIT/Untitled Folder 20/sig_model.pkl", "rb") as f:
+with open("sig_model.pkl", "rb") as f:
     load_model = pickle.load(f)
 
 def preprocess(image_path):
