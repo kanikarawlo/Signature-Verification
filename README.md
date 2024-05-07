@@ -39,4 +39,4 @@ If you encounter any issues while using the Signature Forgery Detection System, 
 3. Review Error Messages: If you encounter any errors, carefully review the error messages to identify the source of the issue.
 
 ## References 
-1. Handwritten Signature Forgery Detection using Convolutional Neural Networks. ![Link](https://www.sciencedirect.com/science/article/pii/S1877050918320301)
+1. Handwritten Signature Forgery Detection using Convolutional Neural Networks. [Link](https://www.sciencedirect.com/science/article/pii/S1877050918320301)
