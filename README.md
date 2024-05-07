@@ -32,3 +32,9 @@ streamlit run signature_verifier.py
 6. Follow the instructions provided in the app to upload images of the original signature and the signature to be tested, and to obtain the verification results.
    
 By following these steps, users can run the Streamlit app (verifier_app.py) on their local machine and utilize the Signature Forgery Detection System.
+
+## Troubleshooting
+If you encounter any issues while using the Signature Forgery Detection System, consider the following troubleshooting steps:
+1. Check Dependencies: Ensure you have installed all required Python packages specified in the requirements.txt file.
+2. Verify Input Images: Make sure the input signature images are in the correct format (RGB/BGR) and accessible from the specified path.
+3. Review Error Messages: If you encounter any errors, carefully review the error messages to identify the source of the issue.
