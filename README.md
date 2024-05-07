@@ -8,9 +8,13 @@ Before using the system, ensure that you have the following prerequisites:
 1. Python (version 3.6 or higher)
 2. Other required Python packages specified in 'requirements.txt'.
 
-Istallation 
+## Istallation 
 To install the necessary Python packages, follow these steps:
 1. CLone the repository :
 ```bash
 git clone https://github.com/kanikarawlo/Signature-Verification
+```
+2. Install the required packages :
+```bash
+pip install -r requirements.txt
 ```
