@@ -7,3 +7,7 @@ Handwritten signatures serve as a crucial means of authentication. However, forg
 Before using the system, ensure that you have the following prerequisites:
 1. Python (version 3.6 or higher)
 2. Other required Python packages specified in 'requirements.txt'.
+
+Istallation 
+To install the necessary Python packages, follow these steps:
+1. CLone the repository : git clone https://github.com/kanikarawlo/Signature-Verification
