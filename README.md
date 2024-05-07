@@ -40,3 +40,5 @@ If you encounter any issues while using the Signature Forgery Detection System, 
 
 ## References 
 1. Handwritten Signature Forgery Detection using Convolutional Neural Networks. [Link](https://www.sciencedirect.com/science/article/pii/S1877050918320301)
+2. Machine Learning for Signature Verification. [Link](https://link.springer.com/chapter/10.1007/11949619_68)
+3. Learning features for offline handwritten signature verification using deep convolutional neural networks. [Link](https://www.sciencedirect.com/science/article/pii/S0031320317302017)
