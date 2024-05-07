@@ -10,4 +10,5 @@ Before using the system, ensure that you have the following prerequisites:
 
 Istallation 
 To install the necessary Python packages, follow these steps:
-1. CLone the repository : git clone https://github.com/kanikarawlo/Signature-Verification
+1. CLone the repository :
+   git clone <https://github.com/kanikarawlo/Signature-Verification>
