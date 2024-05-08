@@ -28,7 +28,7 @@ To use the Signature Forgery Detection System, follow these steps :
 streamlit run signature_verifier.py
 ```
 4. Once the Streamlit app is running, you can access it through your web browser by opening the URL provided in the terminal/command prompt.
-5. Follow the instructions provided in the app to upload images of the original signature and the signature to be tested, and to obtain the verification results.
+5. Follow the instructions provided in the app to upload images of the original signature and the signature to be tested, to obtain the verification results.
    
 By following these steps, users can run the Streamlit app (verifier_app.py) on their local machine and utilize the Signature Forgery Detection System.
 
