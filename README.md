@@ -8,7 +8,7 @@ Before using the system, ensure that you have the following prerequisites:
 1. Python (version 3.6 or higher)
 2. Other required Python packages specified in 'requirements.txt'.
 
-## Istallation 
+## Installation 
 To install the necessary Python packages, follow these steps:
 1. CLone the repository :
 ```bash
