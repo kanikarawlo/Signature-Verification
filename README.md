@@ -22,7 +22,7 @@ pip install -r requirements.txt
 Once you have installed the required packages, you can use the Signature Forgery Detection System either through the command line interface or by using the Streamlit app.
 To use the Signature Forgery Detection System, follow these steps :
 1. Ensure you have installed the required Python packages as mentioned in the Installation section.
-2. Navigate to the directory where you cloned the Signature Forgery Detection repository or download the signature_verifier.py file and the Signature_Forgery_Detector.joblib file from the project repository on GitHub and navigate to the directory where you downloaded the signature_verifier.py file.
+2. Navigate to the directory where you cloned the Signature Forgery Detection repository or download the signature_verifier.py file and the Signature_Forgery_Detector.joblib file from the project repository on GitHub and navigate to the directory where you downloaded these files.
 3. Run the Streamlit app by executing the following command in the terminal/command prompt:
 ```bash
 streamlit run signature_verifier.py
